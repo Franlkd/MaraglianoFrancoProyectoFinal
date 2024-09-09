@@ -1,98 +1,17 @@
-.navbar {
-  background-color: #4CAF50;
-}
-.navbar .navbar-brand {
-  color: #333;
-  font-weight: bold;
-}
-.navbar .navbar-brand:hover {
-  color: #F44336;
-}
-.navbar .nav-link {
-  color: #333;
-}
-.navbar .nav-link:hover {
-  color: #F44336;
-  text-decoration: underline;
-  transition: color 0.3s ease-in-out;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import ".../scss/variables";
+ *   |         ^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\style.scss 1:9  root stylesheet */
 
-footer {
-  background-color: #333;
-  color: #fff;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \".../scss/variables\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 1:9  root stylesheet";
 }
-footer p, footer a {
-  color: #fff;
-  margin: 0;
-}
-footer p:hover, footer a:hover {
-  color: #4CAF50;
-  transition: color 0.3s ease-in-out;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.btn:hover {
-  animation: shake 0.3s ease-in-out;
-}
-
-@keyframes shake {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-5px);
-  }
-  50% {
-    transform: translateX(5px);
-  }
-  75% {
-    transform: translateX(-5px);
-  }
-}
-.bg-success {
-  background-color: #4CAF50 !important;
-  animation: fadeIn 1s ease-in-out;
-}
-.bg-success h1, .bg-success p {
-  animation: fadeIn 1.5s ease-in-out;
-}
-
-.card {
-  border: none;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.card .btn-primary, .card .btn-success {
-  background-color: #F44336;
-  border: none;
-}
-.card .btn-primary:hover, .card .btn-success:hover {
-  background-color: #ea1c0d;
-}
-
-form input, form textarea, form button {
-  margin-top: 10px;
-}
-form input:focus, form textarea:focus, form button:focus {
-  border-color: #4CAF50;
-  box-shadow: 0 0 5px #4CAF50;
-}
-
-.icon {
-  border: none;
-  border-radius: 10px;
-}
-
-/*# sourceMappingURL=style.css.map */
