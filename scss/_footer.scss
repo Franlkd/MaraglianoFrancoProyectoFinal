@@ -1,0 +1,12 @@
+footer {
+  background-color: $dark-color;
+  color: #fff;
+  p, a {
+    color: #fff;
+    margin: 0;
+    &:hover {
+      color: $primary-color;
+      transition: color 0.3s ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.navbar {
+    background-color: $primary-color;
+    .navbar-brand {
+      color: #333;
+      font-weight: bold;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+    .nav-link {
+      color: #333;
+      &:hover {
+        color: $secondary-color;
+        text-decoration: underline;
+        transition: color 0.3s ease-in-out;
+      }
+    }
+  }

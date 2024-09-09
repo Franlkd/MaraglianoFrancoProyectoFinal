@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - SuperMercadito</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">SuperMercadito</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/ofertas.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/sobreNosotros.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contacto Section -->
+    <div class="container my-5">
+        <a class="navbar-brand" href="/index.html">
+            <img class="icon" src="/imagenes/IconoSuperMercadito.jpg" alt="SuperMercadito Logo" width="100">
+        </a>
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <!-- Información de Contacto -->
+            <div class="col-md-6">
+                <h4>Visítanos o Contáctanos</h4>
+                <ul class="list-unstyled">
+                    <li><strong>Dirección:</strong> Viaytes 3090, Rosario, Argentina</li>
+                    <li><strong>Teléfono:</strong> +54 9 0341 123-1523</li>
+                    <li><strong>Email:</strong> contacto@supermercadito.com</li>
+                    <li><strong>Horario:</strong> Lunes a sabado, 9:00 AM - 8:00 PM</li>
+                    <li>Domingos de 9:00 AM - 2:00 PM</li>
+                </ul>
+                <!-- Mapa de Google Maps -->
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1725851949934!6m8!1m7!1sqVWPDHwRnmdA1D0AQUkeHA!2m2!1d-32.88802578213203!2d-60.7269750988556!3f20.84164546550886!4f-10.602570825620845!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 SuperMercadito. Todos los derechos reservados Maragliano Franco.</p>
+        <p>Síguenos en redes sociales:</p>
+        <a href="https://www.Facebook.com" target="_blank" class="text-white me-2">Facebook</a>
+        <a href="https://www.Instagram.com" target="_blank" class="text-white me-2">Instagram</a>
+        <a href="https://www.Twitter.com" target="_blank" class="text-white">Twitter</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

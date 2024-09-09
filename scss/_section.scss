@@ -1,0 +1,42 @@
+// Hero Section
+.bg-success {
+    background-color: $primary-color !important;
+    animation: fadeIn 1s ease-in-out;
+    h1, p {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+  }
+  
+  // Cards Style
+  .card {
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .btn-primary, .btn-success {
+      background-color: $secondary-color;
+      border: none;
+      &:hover {
+        background-color: darken($secondary-color, 10%);
+      }
+    }
+  }
+  
+  // Form Styling
+  form {
+    input, textarea, button {
+      margin-top: 10px;
+      &:focus {
+        border-color: $primary-color;
+        box-shadow: 0 0 5px $primary-color;
+      }
+    }
+  }
+
+.icon {
+  border: none;
+  border-radius: 10px;
+}
+  
